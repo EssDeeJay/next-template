@@ -37,7 +37,8 @@ module.exports = {
       },
       'amber': {
         '300': '#fcd34d'
-      }
+      },
+       'white': '#ffffff'
     }
   },
   plugins: [],
