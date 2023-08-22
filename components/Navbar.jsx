@@ -103,6 +103,9 @@ export default function Navbar(){
                     <a href="#" className="text-sm font-semibold leading-6 text-white">
                         Our Process
                     </a>
+                    <a href="#" className="text-sm font-semibold leading-6 text-white">
+                        Blogs
+                    </a>
                 </Popover.Group>
 
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -118,7 +121,7 @@ export default function Navbar(){
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Dalio</span>
-                            <div class="h-8 w-auto">
+                            <div className="h-8 w-auto">
                             <span className="text-custom-blue text-4xl font-bold">D</span><span className="text-amber-300 text-4xl font-bold">a</span><span className="text-custom-blue text-4xl font-bold">lio</span>
                             </div>
                         </a>
@@ -155,6 +158,9 @@ export default function Navbar(){
                                 </a>
                                 <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-custom-blue hover:bg-custom-yellow">
                                     Our Process
+                                </a>
+                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-custom-blue hover:bg-custom-yellow">
+                                   Blogs
                                 </a>
                             </div>
                             <div className="py-6">

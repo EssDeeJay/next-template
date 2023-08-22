@@ -1,9 +1,11 @@
 import Hero from "@/components/Hero";
+import ImageWithText from "@/components/ImageWithText";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-x-hidden">
         <Hero />
+        <ImageWithText />
     </main>
   )
 }
